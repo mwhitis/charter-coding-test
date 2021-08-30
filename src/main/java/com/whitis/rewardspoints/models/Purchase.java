@@ -12,7 +12,6 @@ import java.time.Instant;
 @AllArgsConstructor
 public class Purchase {
     String customerId;
-    String purchaseId;
     Instant purchaseDateTime;
     BigDecimal purchaseAmount;
 }

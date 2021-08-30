@@ -57,7 +57,6 @@ class RewardsControllerTest {
     void givenAGoodPostBodyWhenPostToRewardsSummaryThenReturns() throws Exception {
         Purchase purchase = Purchase.builder()
                 .purchaseDateTime(Instant.parse("2021-08-08T15:32:09Z"))
-                .purchaseId("1")
                 .customerId("1")
                 .purchaseAmount(BigDecimal.valueOf(100.23))
                 .build();

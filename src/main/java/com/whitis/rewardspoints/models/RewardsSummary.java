@@ -9,7 +9,6 @@ import java.util.Map;
 @Builder
 public class RewardsSummary {
     private String customerId;
-    private String purchasseId;
     private Map<String, Long> months;
     private Long totalRewards;
 }
