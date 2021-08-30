@@ -1,6 +1,5 @@
 package com.whitis.rewardspoints.service;
 
-import com.whitis.rewardspoints.RewardsCalculator;
 import lombok.RequiredArgsConstructor;
 import com.whitis.rewardspoints.models.Purchase;
 import com.whitis.rewardspoints.models.RewardsSummary;

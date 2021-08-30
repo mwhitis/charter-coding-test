@@ -1,5 +1,6 @@
 package com.whitis.rewardspoints;
 
+import com.whitis.rewardspoints.service.RewardsCalculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
